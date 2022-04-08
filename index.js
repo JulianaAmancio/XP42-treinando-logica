@@ -57,3 +57,19 @@ for (let i = 0; i <= 20; i++) {
       console.log(i);
     }
   }
+
+  //exercício 8 
+
+function tabuada(numeral) {
+  for (let i = 1; i <= 10; i++) {
+    console.log(`${numeral} x ${i} = ${numeral*i}`);
+  }
+}
+tabuada(9)
+
+//exercício 9 
+const converterEmHoras = (minutes) => {
+    return minutes / 60;
+  };
+  
+  console.log(converterEmHoras(250), " hora(s)");
